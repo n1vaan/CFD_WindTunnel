@@ -8,10 +8,28 @@
 
 ## 11/1/2025 - Researching part configurations and dimension configurations  
 
+**Fans**
+
 First, I decided to find some fans that would suit the dimensions and configuration of this wind tunnel. I decided to use computer fans since they are relatively inexpensive; I can upgrade to a better motor, like a vacuum motor or leaf blower motor, when this project is a success. To minimize the size and ensure my 3D printer can make an enclosure for this, I decided to go for 120mm fans. I found out that there are two types: 3-pin configurations which work well with motherboard, but also 4-pin pwm configurations which can be controlled with pulse-width modulation. This will be much better for my project since I can control the fan speeds with a microcontroller. I decided to find the cheapest ones that provided decent RPM and also had 4-pin pulse-width modulation. I found these: 
 
 [Amazon](https://www.amazon.com/Thermalright-TL-C12C-Computer-Included-Quantities）/dp/B0FQ293XFQ/ref=sr_1_3?crid=2K24UWL0DZZSV&dib=eyJ2IjoiMSJ9.dZ997bbgmoobYWx0Jtea6cLInZtKFh_jTj9oKBA0Mr_qa-0ffYbHw1f_N8fZrASWpgpEYmkFRNL-9MWJGZHCl3qj7fxYk0ZI-arKLK3Iwmra1cMlFQCwsDEr7zSbOw60YmKHmvF1hL-AJkSm-TQa3loxuU9WxnD-gR12L-dq5eLZctmWVRxW1vrYrnm8RK4TBNCfCCY5xcwIFbNfiRthkMUchcH0WK2aCgg6E7LWBBs.aAumilTdHjnYqnob9_d7APDh7NBYbmTK874IPPIwv4A&dib_tag=se&keywords=4%2Bpin%2Bpwm%2Bfan&qid=1762007360&sprefix=4%2Bpin%2Bpwm%2Bfan%2Caps%2C139&sr=8-3&th=1 )
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQxNSwicHVyIjoiYmxvYl9pZCJ9fQ==--0c236c090390cd0d3ec785ebabaa1a02cb0a4e6c/image.png)
+
+**Fog Machine**
+
+To visualize the flow, I decided to find a cheap fog machine that the fans would pull fog from to mimic air flow. After searching for around 30 minutes, I came across this one on Walmart that had all the things I needed. Hopefully the RGB can also be seen in the flows for some cool visualizations! 
+
+[Walmart](https://www.walmart.com/ip/Donner-Halloween-Fog-Machines-500W-Wedding-Smoke-Machine-Wireless-Wired-Remote-Control-13-Colors-Thanksgiving-Christmas-DJ-Party-Controllable-RGB-LED/803480546?classType=VARIANT&athbdg=L1600&from=/search
+)
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQyNSwicHVyIjoiYmxvYl9pZCJ9fQ==--48482bead8ccdf68c67ce9a626f9ccb777a662ac/image.png)
+
+**Fan PWM Controller**
+
+Between using a microcontroller for greater controller vs. circuit components that had already been fabricated, I decided to go for the latter option since I was already using a smoke machine that plugged into the wall. Additionally, power sync and voltage/ampage management would be another hassle; right now, I am trying to achieve a prototype that meets its primary task, so this option seemed much better. I found this component which can control 4 fans at once with a knob: 
+
+[Amazon](https://www.amazon.com/Controller-Supported-Adapter-Powered-Cooling/dp/B0FBRNFLDM/ref=sr_1_4?crid=M4OV4NPX798N&dib=eyJ2IjoiMSJ9.sLEEivs0GVnwEoPGp-hrqu8vtFqf9ZuI5P2ONb9kDD3CVoShxcMlLzJw-AWyU3kXDEhGUtvInf-NDhR8_2atP8dV0zra_54sNHarg4tCjoNz1jcX_KDUTFs6OcX9xrW3aMLm7uYZJIb0TPyWJpdnQ45_SI5NazXxO3B4yEw74As2lJFdjFLoaHAydFVUuoCz_aPSUi29xuOkAJYlJuZDqSna6fA-7rHIJU5fgJckebY.Q-6TCpUnXEGKTOg9efkNiHVXoy8RO_vPEEWewwpPIaQ&dib_tag=se&keywords=fan+pwm+controller&qid=1762009056&sprefix=fan+pwm+controlle%2Caps%2C158&sr=8-4)
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--1780e6b69840f67f7c732bfde189bfacb13801dc/image.png)
+
   
 
