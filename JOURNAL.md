@@ -31,5 +31,7 @@ Between using a microcontroller for greater controller vs. circuit components th
 [Amazon](https://www.amazon.com/Controller-Supported-Adapter-Powered-Cooling/dp/B0FBRNFLDM/ref=sr_1_4?crid=M4OV4NPX798N&dib=eyJ2IjoiMSJ9.sLEEivs0GVnwEoPGp-hrqu8vtFqf9ZuI5P2ONb9kDD3CVoShxcMlLzJw-AWyU3kXDEhGUtvInf-NDhR8_2atP8dV0zra_54sNHarg4tCjoNz1jcX_KDUTFs6OcX9xrW3aMLm7uYZJIb0TPyWJpdnQ45_SI5NazXxO3B4yEw74As2lJFdjFLoaHAydFVUuoCz_aPSUi29xuOkAJYlJuZDqSna6fA-7rHIJU5fgJckebY.Q-6TCpUnXEGKTOg9efkNiHVXoy8RO_vPEEWewwpPIaQ&dib_tag=se&keywords=fan+pwm+controller&qid=1762009056&sprefix=fan+pwm+controlle%2Caps%2C158&sr=8-4)
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzQyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--1780e6b69840f67f7c732bfde189bfacb13801dc/image.png)
 
+Tomorrow, I plan on starting to CAD the whole thing out. 
+
   
 
